@@ -1,2 +1,2 @@
-# NS
-NS 스터디 
+# CALCULATOR
+계산기앱
