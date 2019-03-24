@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         num8 = findViewById(R.id.num8);
         num9 = findViewById(R.id.num9);
         num0 = findViewById(R.id.num0);
+
         addButton = findViewById(R.id.addButton);
         subButton = findViewById(R.id.subButton);
         mulButton = findViewById(R.id.mulButton);
