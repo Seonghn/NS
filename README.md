@@ -1,2 +1,2 @@
-# MyApplication2
-Calculator Application
+# NS
+NS 스터디 
