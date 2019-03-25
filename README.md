@@ -1,2 +1,2 @@
-# MyApplication2
-Calculator Application
+# CALCULATOR
+계산기앱
