@@ -11,12 +11,13 @@ import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
 
-    String firstNum = "";
-    String resultNum = "";
-    double type=0;
-    double first, second = 0;
-    EditText textFunction, textAnswer;
-    Button num1, num2, num3, num4, num5, num6, num7, num8, num9, num0, addButton, subButton, mulButton, divButton, equalButton, delButton;
+    private String firstNum = "";
+    private String resultNum = "";
+    private double type=0;
+    private double first, second = 0;
+    private EditText textFunction;
+    private TextView textAnswer;
+    private Button num1, num2, num3, num4, num5, num6, num7, num8, num9, num0, addButton, subButton, mulButton, divButton, equalButton, delButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,14 +45,14 @@ public class MainActivity extends AppCompatActivity {
         equalButton = findViewById(R.id.equalButton);
         delButton = findViewById(R.id.delButton);
 
-        findViewById(R.id.addButton).setOnClickListener(aluClick);
-        findViewById(R.id.subButton).setOnClickListener(aluClick);
-        findViewById(R.id.mulButton).setOnClickListener(aluClick);
-        findViewById(R.id.divButton).setOnClickListener(aluClick);
+        addButton.setOnClickListener(aluClick);
+        subButton.setOnClickListener(aluClick);
+        mulButton.setOnClickListener(aluClick);
+        divButton.setOnClickListener(aluClick);
 
-        findViewById(R.id.equalButton).setOnClickListener(aluClick);
+        equalButton.setOnClickListener(aluClick);
 
-        findViewById(R.id.delButton).setOnClickListener(aluClick);
+        delButton.setOnClickListener(aluClick);
 
         num0.setOnClickListener(mClick);
         num1.setOnClickListener(mClick);
